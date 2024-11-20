@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* Header Styles */
+header {
+    background-color: #0056b3;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+nav a {
+    color: white;
+    margin-left: 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styles */
+main {
+    padding: 2rem;
+    flex: 1; /* Empuja el footer hacia abajo si el contenido es corto */
+    padding: 2rem;
+}
+
+main h2 {
+    font-size: 1.8rem;
+    color: #0056b3;
+    margin-bottom: 1rem;
+}
+
+/* Schedule Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 0.8rem;
+}
+
+table th {
+    background-color: #f0f0f0;
+}
+
+table td button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+table td button:hover {
+    background-color: #0056b3;
+}
+
+table td {
+    background-color: #fff;
+}
+
+
+
+/* My Reservations Section */
+.my-reservations ul {
+    list-style: none;
+    padding: 0;
+}
+
+.my-reservations li {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-reservations li button {
+    padding: 0.5rem 1rem;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.my-reservations li button:hover {
+    background-color: #c82333;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: white;
+}

@@ -14,7 +14,7 @@ $validar_login = mysqli_query($conexion, "SELECT * FROM usuarios WHERE email='$c
 if(mysqli_num_rows($validar_login) > 0 ){
     // Iniciar sesión y guardar el correo en $_SESSION
     $_SESSION['correo'] = $correo;
-    header("location: ../horarios.php");
+    header("location: ../dashboard.php");
     exit;
 }else{
     echo '
