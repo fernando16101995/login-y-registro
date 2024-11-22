@@ -32,7 +32,7 @@
                 <tbody>
                     <tr>
                         <td>7:00 - 8:00</td>
-                        <td><button>Reservar</button></td>
+                        <td><button">Reservar</button></td>
                         <td><button>Reservar</button></td>
                         <td>Ocupado</td>
                         <td><button>Reservar</button></td>
@@ -93,7 +93,7 @@
 
         
     </main>
-
+    <script src="assets/js/dasboard.js"></script>
     <footer>
         <p>&copy; 2024 Sistema de Reservas. Todos los derechos reservados.</p>
     </footer>
